@@ -1,5 +1,5 @@
 body {
-    background-color: #8485bd;
+    background-color: #e277a0;
     font-family: 'Arial', sans-serif;
 }
 h1{
@@ -10,7 +10,7 @@ h1{
 .header {
     text-align: center;
     padding: 20px;
-    background-color: #ffffff;
+    background-color: yellow;
     color: rgb(54, 43, 43);
 }
 
@@ -19,7 +19,7 @@ h1{
 }
 
 .response-container {
-    border: 2px solid #ffffff;
+    border: 2px solid #e277a0;
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 10px;
@@ -43,6 +43,6 @@ h1{
 
 .btn-primary:hover {
     background-color: #eee7e7;
-    border-color: #0c0c0c;
+    border-color: gray; 
     color: rgb(0, 0, 0);
 } 
