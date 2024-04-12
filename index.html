@@ -1,64 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Magic 8 Ball</title>
-    <!-- Latest compiled and minified CSS -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-
-<!-- Latest compiled JavaScript -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Just+Me+Again+Down+Here&family=Macondo+Swash+Caps&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-
-
-</head>
-<body>
-
-        <div class="container">
-            <div class="header">
-                <h1>Magic 8-Ball</h1>
-            </div>
-            <div class="response-container" id="response-container">Ask a question and click the button to reveal the answer.</div>
-            <button class="btn btn-primary btn-lg btn-block" onclick="getRandomResponse()">Ask the Magic 8-Ball</button>
-        </div>
-
-
-        <script>
-            function getRandomResponse() {
-                var responses = [
-                    "It is certain",
-                    "It is decidedly so",
-                    "Without a doubt",
-                    "Yes, definitely",
-                    "You may rely on it",
-                    "As I see it, yes",
-                    "Most likely",
-                    "Outlook good",
-                    "Yes",
-                    "Signs point to yes",
-                    "Reply hazy, try again",
-                    "Ask again later",
-                    "Better not tell you now",
-                    "Cannot predict now",
-                    "Concentrate and ask again",
-                    "Don't count on it",
-                    "My reply is no",
-                    "My sources say no",
-                    "Outlook not so good",
-                    "Very doubtful"
-                ];
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     
-                var randomIndex = Math.floor(Math.random() * responses.length);
-                var response = responses[randomIndex];
-    
-                var responseContainer = document.getElementById('response-container');
-                responseContainer.textContent = response;
-            }
-        </script>
-    
-</body>
+    <title>Zyreanna Niblack's - Magic 8 Ball</title>
+  </head>
+  <body>
+    <h1 class="app_title">Magic 8 Ball</h1>
+    <h3 class="info">Just ask a question and click below to see what the Magic 8-Ball has to say. </h3>
+    <div class="mb-outer" id="mb-container">
+      <div class="mb-inner">
+        <h3 class="magic-ball" id="response">8</h3>
+      </div>
+
+      <div class="magicball_spotlightt"></div>
+      <div class="magicball_bgshadow"></div>
+      <div class="magicball_upper"></div>
+      <div class="magicball_lower"></div>
+      
+    </div>
+    <h3 class="info">For best accuracy, be sure to concentrate very hard on your question and ask the 8-Ball only once.</h3>
+    <script src="script.js"></script>
+  </body>
 </html> 
