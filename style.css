@@ -18,7 +18,7 @@ body{
     justify-content: center;
     align-items:center;
     padding:1rem;
-    background-color: #604D53;
+    background-color: #94b9ff;
 }
 .app_title{
     font-size: 2rem;
@@ -31,7 +31,7 @@ body{
     padding:3rem;
     letter-spacing: 0.1rem;
     font-weight: 300;
-    color: #FFDBDA;
+    color: #d4e9fd;
 }
 .info{
     text-align: justify;
@@ -39,18 +39,18 @@ body{
     margin:2rem 0;
     padding:0 1rem;
     line-height: 1.4rem;
-    color: #FFDBDA;
+    color: #a7edff;
 }
 .mb-outer{
     width: 300px;
     height: 300px;
-    background: #DB7F8E;
+    background: #b0fcff;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 2rem 0;
-    box-shadow: 10px 10px 30px #D26073, -10px -10px 30px #FFDBDA;
+    box-shadow: 10px 10px 30px #3d439b, -10px -10px 30px #ffffff;
     position: relative;
     cursor: pointer;
             
@@ -67,7 +67,7 @@ body{
 .mb-inner{
     width: 150px;
     height: 150px;
-    background: #FFDBDA;
+    background: #ffffff;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -81,7 +81,7 @@ body{
     height: 250px;
     top: 5px;
     border-radius: 50%;
-    background: #E0909D;
+    background: #91bdff;
     opacity: 0.2;
 }
 
@@ -91,7 +91,7 @@ body{
     height: 175px;
     top: 0px;
     border-radius: 50%;
-    background: #E4A0AB;
+    background: #6ef5ff;
     opacity: 0.2;
 }
 
@@ -100,7 +100,7 @@ body{
     width: 75px;
     height: 50px;
     top: 5px;
-    background: #F6DFE3;
+    background: #78beff;
     opacity: 0.2;
     border-radius: 50%;
 }
@@ -110,14 +110,14 @@ body{
     width: 175px;
     height: 175px;
     top: 5px;
-    background: #E9AFB9;
+    background: #91e0ff;
     opacity: 0.2;
     border-radius: 50%;
 }
 
 .magic-ball{
     font-size:8rem;
-    color: #604D53;
+    color: #002652;
     text-align: center;
 }
 
